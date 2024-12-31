@@ -1,0 +1,67 @@
+POST localhost:8080/api/teacher/add/course
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEzMTk2NTUxMjYzNDU5MTY0MTYiLCJyb2xlIjoifk92TyIsImlhdCI6MTczNDcwMTA0MCwiZXhwIjoxNzM1MzA1ODQwfQ.kR7yVC97qbDSzvOVy5K60rTfulBWDfwD4M11HyS_h7g
+Content-Type: application/json
+
+{
+  "name": "WEB技术框架",
+  "quantity": 100,
+  "teacherId": "1319655126345916416",
+  "profession": "软件工程",
+  "year": "2022",
+  "term": 1,
+  "classNumber": "04",
+  "credit": 4.5,
+  "lesson": 6,
+  "experimentalHours": 36,
+  "theoreticalHours": 48
+}
+
+###
+POST localhost:8080/api/teacher/add/course
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEzMTk2NTUxMjYzNDU5MTY0MTYiLCJyb2xlIjoifk92TyIsImlhdCI6MTczNDcwMTA0MCwiZXhwIjoxNzM1MzA1ODQwfQ.kR7yVC97qbDSzvOVy5K60rTfulBWDfwD4M11HyS_h7g
+Content-Type: application/json
+
+{
+  "name": "移动开发",
+  "quantity": 80,
+  "teacherId": "1321117950921453568",
+  "profession": "软件工程",
+  "year": "2022",
+  "term": 2,
+  "classNumber": "04",
+  "credit": 5,
+  "lesson": 8,
+  "experimentalHours": 36,
+  "theoreticalHours": 48
+}
+###
+POST localhost:8080/api/teacher/add/appointment
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoifk92TyIsImlkIjoiMTMxOTY1NTEyNjM0NTkxNjQxNiIsImlhdCI6MTczNDc1OTAzNiwiZXhwIjoxNzM1MzYzODM2fQ.kgiFA5IojzLfdS5v68pkh4aDE3dSohBHSZ4pvuXoPxc
+Content-Type: application/json
+
+{
+  "course": "{\"id\": \"1319660638533787648\",\"name\": \"WEB技术框架\"}",
+  "classroom": "{\"id\": \"tet\",\"name\": \"tes3333t\"}",
+  "teacher": "{\"id\": \"1319655126345916416\", \"name\": \"SuiCheng\"}",
+  "dayofweek": 2,
+  "section": 1,
+  "week": 4
+}
+
+###
+DELETE localhost:8080/api/teacher/delete/appointment/1322179170003505152
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoifk92TyIsInVpZCI6IjEzMjExMTc5NTA5MjE0NTM1NjgiLCJpYXQiOjE3MzUxMjU4MjcsImV4cCI6MTczNTczMDYyN30.edCUP1dYOEwJslgXqnzDCf8NEGKoLNrYR6iz-UPotUs
+
+
+###
+GET localhost:8080/api/teacher/get/course
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoifk92TyIsInVpZCI6IjEzMjExMTc5NTA5MjE0NTM1NjgiLCJpYXQiOjE3MzUxMjU4MjcsImV4cCI6MTczNTczMDYyN30.edCUP1dYOEwJslgXqnzDCf8NEGKoLNrYR6iz-UPotUs
+
+
+###
+DELETE localhost:8080/api/teacher/delete/course/1321441391392403456
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoifk92TyIsInVpZCI6IjEzMjExMTc5NTA5MjE0NTM1NjgiLCJpYXQiOjE3MzUxMjU4MjcsImV4cCI6MTczNTczMDYyN30.edCUP1dYOEwJslgXqnzDCf8NEGKoLNrYR6iz-UPotUs
+
+###
+GET localhost:8080/api/teacher/get/appointmentDTO
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoifk92TyIsInVpZCI6IjEzMjExMTc5NTA5MjE0NTM1NjgiLCJpYXQiOjE3MzUxMjU4MjcsImV4cCI6MTczNTczMDYyN30.edCUP1dYOEwJslgXqnzDCf8NEGKoLNrYR6iz-UPotUs

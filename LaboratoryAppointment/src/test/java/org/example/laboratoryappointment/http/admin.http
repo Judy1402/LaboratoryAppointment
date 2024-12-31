@@ -1,0 +1,20 @@
+POST localhost:8080/api/admin/add/user
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiUUFRPCIsImlkIjoiMTMxNzg0NTczMjI0NDQxODU2MCIsImlhdCI6MTczNDY5NzIwNiwiZXhwIjoxNzM1MzAyMDA2fQ.k_Q3UjsAB8kaCF5jeAR7SaRGZK4-ywn0u3R4DmZgXyk
+Content-Type: application/json
+
+{
+  "name": "ahhh",
+  "phone": "19917661102",
+  "account": "this is test",
+  "role": "~OvO",
+  "password": "test_password",
+  "status": 1
+}
+
+###
+GET localhost:8080/api/admin/users
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiUUFRPCIsImlkIjoiMTMxNzg0NTczMjI0NDQxODU2MCIsImlhdCI6MTczNDY5NzIwNiwiZXhwIjoxNzM1MzAyMDA2fQ.k_Q3UjsAB8kaCF5jeAR7SaRGZK4-ywn0u3R4DmZgXyk
+
+###
+GET localhost:8080/api/admin/get/courseDTO
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiUUFRPCIsInVpZCI6IjEzMTk2NTMzNzQ4Mjk3MzE4NDAiLCJpYXQiOjE3MzU2MzcyMzMsImV4cCI6MTczNjI0MjAzM30.R20mgMrgR7NPAy3X_g2Y5o69WEfINrAr9JbEFjGTGb4

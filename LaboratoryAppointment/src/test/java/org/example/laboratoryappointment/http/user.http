@@ -1,0 +1,12 @@
+PATCH localhost:8080/api/user/change/information
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoifk92TyIsInVpZCI6IjEzMjExMTc5NTA5MjE0NTM1NjgiLCJpYXQiOjE3MzUxMDY0MjEsImV4cCI6MTczNTcxMTIyMX0.g_ZFNMjRRrmY2_BoufS-dxXWcnst1_x52yvcIjbjskg
+Content-Type: application/json
+
+{
+  "name": "saber",
+  "phone": "15589201906",
+  "description": "hello world",
+  "profession": "软件工程"
+}
+
+p

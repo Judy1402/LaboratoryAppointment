@@ -1,0 +1,8 @@
+POST localhost:8080/api/manager/add/classroom
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxMzE5NjUzMzc0ODI5NzMxODQwIiwicm9sZSI6IlFBUTwiLCJpYXQiOjE3MzUxOTc3MjIsImV4cCI6MTczNTgwMjUyMn0.iZV5hRK-z8VHeD-2lBW3RrS7qlzQYoHcVc3TiUHl6H4
+Content-Type: application/json
+
+{
+  "name": "丹青楼906",
+  "quantity": 100
+}

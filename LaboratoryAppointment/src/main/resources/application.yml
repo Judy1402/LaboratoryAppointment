@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: 'jdbc:mysql://localhost:3306/project?createDatabaseIfNotExist=true'
+    username: root
+    password: 20040101master
+
+  sql:
+    init:
+      mode: always
+
+  jackson:
+    default-property-inclusion: non_null
+
+logging:
+  level:
+    root: warn
+    org:
+      example: debug
+  pattern:
+    console: '%-5level %C.%M[%line] - %msg%n'
+
+my:
+  secretkey: 1593572468qwe
